@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF42DB6C1C63B4E3003D42CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DB6B1C63B4E3003D42CE /* main.m */; };
+		BF42DB6F1C63B4E3003D42CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DB6E1C63B4E3003D42CE /* AppDelegate.m */; };
+		BF42DB721C63B4E3003D42CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DB711C63B4E3003D42CE /* ViewController.m */; };
+		BF42DB751C63B4E3003D42CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF42DB731C63B4E3003D42CE /* Main.storyboard */; };
+		BF42DB771C63B4E3003D42CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF42DB761C63B4E3003D42CE /* Assets.xcassets */; };
+		BF42DB7A1C63B4E3003D42CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF42DB781C63B4E3003D42CE /* LaunchScreen.storyboard */; };
+		BF42DB851C63B4E3003D42CE /* KRConfettiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DB841C63B4E3003D42CE /* KRConfettiTests.m */; };
+		BF42DB901C63B4E3003D42CE /* KRConfettiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DB8F1C63B4E3003D42CE /* KRConfettiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF42DB811C63B4E3003D42CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF42DB5F1C63B4E3003D42CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF42DB661C63B4E3003D42CE;
+			remoteInfo = KRConfetti;
+		};
+		BF42DB8C1C63B4E3003D42CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF42DB5F1C63B4E3003D42CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF42DB661C63B4E3003D42CE;
+			remoteInfo = KRConfetti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF42DB671C63B4E3003D42CE /* KRConfetti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRConfetti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF42DB6B1C63B4E3003D42CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF42DB6D1C63B4E3003D42CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF42DB6E1C63B4E3003D42CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF42DB701C63B4E3003D42CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF42DB711C63B4E3003D42CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF42DB741C63B4E3003D42CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF42DB761C63B4E3003D42CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF42DB791C63B4E3003D42CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF42DB7B1C63B4E3003D42CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF42DB801C63B4E3003D42CE /* KRConfettiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRConfettiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF42DB841C63B4E3003D42CE /* KRConfettiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRConfettiTests.m; sourceTree = "<group>"; };
+		BF42DB861C63B4E3003D42CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF42DB8B1C63B4E3003D42CE /* KRConfettiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRConfettiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF42DB8F1C63B4E3003D42CE /* KRConfettiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRConfettiUITests.m; sourceTree = "<group>"; };
+		BF42DB911C63B4E3003D42CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF42DB641C63B4E3003D42CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF42DB7D1C63B4E3003D42CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF42DB881C63B4E3003D42CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF42DB5E1C63B4E3003D42CE = {
+			isa = PBXGroup;
+			children = (
+				BF42DB691C63B4E3003D42CE /* KRConfetti */,
+				BF42DB831C63B4E3003D42CE /* KRConfettiTests */,
+				BF42DB8E1C63B4E3003D42CE /* KRConfettiUITests */,
+				BF42DB681C63B4E3003D42CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF42DB681C63B4E3003D42CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF42DB671C63B4E3003D42CE /* KRConfetti.app */,
+				BF42DB801C63B4E3003D42CE /* KRConfettiTests.xctest */,
+				BF42DB8B1C63B4E3003D42CE /* KRConfettiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF42DB691C63B4E3003D42CE /* KRConfetti */ = {
+			isa = PBXGroup;
+			children = (
+				BF42DB6D1C63B4E3003D42CE /* AppDelegate.h */,
+				BF42DB6E1C63B4E3003D42CE /* AppDelegate.m */,
+				BF42DB701C63B4E3003D42CE /* ViewController.h */,
+				BF42DB711C63B4E3003D42CE /* ViewController.m */,
+				BF42DB731C63B4E3003D42CE /* Main.storyboard */,
+				BF42DB761C63B4E3003D42CE /* Assets.xcassets */,
+				BF42DB781C63B4E3003D42CE /* LaunchScreen.storyboard */,
+				BF42DB7B1C63B4E3003D42CE /* Info.plist */,
+				BF42DB6A1C63B4E3003D42CE /* Supporting Files */,
+			);
+			path = KRConfetti;
+			sourceTree = "<group>";
+		};
+		BF42DB6A1C63B4E3003D42CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF42DB6B1C63B4E3003D42CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF42DB831C63B4E3003D42CE /* KRConfettiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF42DB841C63B4E3003D42CE /* KRConfettiTests.m */,
+				BF42DB861C63B4E3003D42CE /* Info.plist */,
+			);
+			path = KRConfettiTests;
+			sourceTree = "<group>";
+		};
+		BF42DB8E1C63B4E3003D42CE /* KRConfettiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF42DB8F1C63B4E3003D42CE /* KRConfettiUITests.m */,
+				BF42DB911C63B4E3003D42CE /* Info.plist */,
+			);
+			path = KRConfettiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF42DB661C63B4E3003D42CE /* KRConfetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF42DB941C63B4E3003D42CE /* Build configuration list for PBXNativeTarget "KRConfetti" */;
+			buildPhases = (
+				BF42DB631C63B4E3003D42CE /* Sources */,
+				BF42DB641C63B4E3003D42CE /* Frameworks */,
+				BF42DB651C63B4E3003D42CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRConfetti;
+			productName = KRConfetti;
+			productReference = BF42DB671C63B4E3003D42CE /* KRConfetti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF42DB7F1C63B4E3003D42CE /* KRConfettiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF42DB971C63B4E3003D42CE /* Build configuration list for PBXNativeTarget "KRConfettiTests" */;
+			buildPhases = (
+				BF42DB7C1C63B4E3003D42CE /* Sources */,
+				BF42DB7D1C63B4E3003D42CE /* Frameworks */,
+				BF42DB7E1C63B4E3003D42CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF42DB821C63B4E3003D42CE /* PBXTargetDependency */,
+			);
+			name = KRConfettiTests;
+			productName = KRConfettiTests;
+			productReference = BF42DB801C63B4E3003D42CE /* KRConfettiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF42DB8A1C63B4E3003D42CE /* KRConfettiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF42DB9A1C63B4E3003D42CE /* Build configuration list for PBXNativeTarget "KRConfettiUITests" */;
+			buildPhases = (
+				BF42DB871C63B4E3003D42CE /* Sources */,
+				BF42DB881C63B4E3003D42CE /* Frameworks */,
+				BF42DB891C63B4E3003D42CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF42DB8D1C63B4E3003D42CE /* PBXTargetDependency */,
+			);
+			name = KRConfettiUITests;
+			productName = KRConfettiUITests;
+			productReference = BF42DB8B1C63B4E3003D42CE /* KRConfettiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF42DB5F1C63B4E3003D42CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Robinson;
+				TargetAttributes = {
+					BF42DB661C63B4E3003D42CE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BF42DB7F1C63B4E3003D42CE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BF42DB661C63B4E3003D42CE;
+					};
+					BF42DB8A1C63B4E3003D42CE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BF42DB661C63B4E3003D42CE;
+					};
+				};
+			};
+			buildConfigurationList = BF42DB621C63B4E3003D42CE /* Build configuration list for PBXProject "KRConfetti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF42DB5E1C63B4E3003D42CE;
+			productRefGroup = BF42DB681C63B4E3003D42CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF42DB661C63B4E3003D42CE /* KRConfetti */,
+				BF42DB7F1C63B4E3003D42CE /* KRConfettiTests */,
+				BF42DB8A1C63B4E3003D42CE /* KRConfettiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF42DB651C63B4E3003D42CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF42DB7A1C63B4E3003D42CE /* LaunchScreen.storyboard in Resources */,
+				BF42DB771C63B4E3003D42CE /* Assets.xcassets in Resources */,
+				BF42DB751C63B4E3003D42CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF42DB7E1C63B4E3003D42CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF42DB891C63B4E3003D42CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF42DB631C63B4E3003D42CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF42DB721C63B4E3003D42CE /* ViewController.m in Sources */,
+				BF42DB6F1C63B4E3003D42CE /* AppDelegate.m in Sources */,
+				BF42DB6C1C63B4E3003D42CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF42DB7C1C63B4E3003D42CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF42DB851C63B4E3003D42CE /* KRConfettiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF42DB871C63B4E3003D42CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF42DB901C63B4E3003D42CE /* KRConfettiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF42DB821C63B4E3003D42CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF42DB661C63B4E3003D42CE /* KRConfetti */;
+			targetProxy = BF42DB811C63B4E3003D42CE /* PBXContainerItemProxy */;
+		};
+		BF42DB8D1C63B4E3003D42CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF42DB661C63B4E3003D42CE /* KRConfetti */;
+			targetProxy = BF42DB8C1C63B4E3003D42CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF42DB731C63B4E3003D42CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF42DB741C63B4E3003D42CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF42DB781C63B4E3003D42CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF42DB791C63B4E3003D42CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF42DB921C63B4E3003D42CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF42DB931C63B4E3003D42CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF42DB951C63B4E3003D42CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KRConfetti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robinson.KRConfetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF42DB961C63B4E3003D42CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KRConfetti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robinson.KRConfetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF42DB981C63B4E3003D42CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KRConfettiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robinson.KRConfettiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRConfetti.app/KRConfetti";
+			};
+			name = Debug;
+		};
+		BF42DB991C63B4E3003D42CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KRConfettiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robinson.KRConfettiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRConfetti.app/KRConfetti";
+			};
+			name = Release;
+		};
+		BF42DB9B1C63B4E3003D42CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KRConfettiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robinson.KRConfettiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KRConfetti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF42DB9C1C63B4E3003D42CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KRConfettiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robinson.KRConfettiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KRConfetti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF42DB621C63B4E3003D42CE /* Build configuration list for PBXProject "KRConfetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF42DB921C63B4E3003D42CE /* Debug */,
+				BF42DB931C63B4E3003D42CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF42DB941C63B4E3003D42CE /* Build configuration list for PBXNativeTarget "KRConfetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF42DB951C63B4E3003D42CE /* Debug */,
+				BF42DB961C63B4E3003D42CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF42DB971C63B4E3003D42CE /* Build configuration list for PBXNativeTarget "KRConfettiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF42DB981C63B4E3003D42CE /* Debug */,
+				BF42DB991C63B4E3003D42CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF42DB9A1C63B4E3003D42CE /* Build configuration list for PBXNativeTarget "KRConfettiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF42DB9B1C63B4E3003D42CE /* Debug */,
+				BF42DB9C1C63B4E3003D42CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF42DB5F1C63B4E3003D42CE /* Project object */;
+}
