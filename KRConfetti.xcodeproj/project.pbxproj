@@ -15,6 +15,12 @@
 		BF42DB7A1C63B4E3003D42CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF42DB781C63B4E3003D42CE /* LaunchScreen.storyboard */; };
 		BF42DB851C63B4E3003D42CE /* KRConfettiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DB841C63B4E3003D42CE /* KRConfettiTests.m */; };
 		BF42DB901C63B4E3003D42CE /* KRConfettiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DB8F1C63B4E3003D42CE /* KRConfettiUITests.m */; };
+		BF42DB9E1C63B517003D42CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF42DB9D1C63B517003D42CE /* QuartzCore.framework */; };
+		BF42DBA11C63B52E003D42CE /* KRConfettiView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DBA01C63B52E003D42CE /* KRConfettiView.m */; };
+		BF5F41DC1C649FF600944C33 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5F41D81C649FF600944C33 /* confetti.png */; };
+		BF5F41DD1C649FF600944C33 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5F41D91C649FF600944C33 /* diamond.png */; };
+		BF5F41DE1C649FF600944C33 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5F41DA1C649FF600944C33 /* star.png */; };
+		BF5F41DF1C649FF600944C33 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5F41DB1C649FF600944C33 /* triangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		BF42DB8B1C63B4E3003D42CE /* KRConfettiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRConfettiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF42DB8F1C63B4E3003D42CE /* KRConfettiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRConfettiUITests.m; sourceTree = "<group>"; };
 		BF42DB911C63B4E3003D42CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF42DB9D1C63B517003D42CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF42DB9F1C63B52E003D42CE /* KRConfettiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRConfettiView.h; sourceTree = "<group>"; };
+		BF42DBA01C63B52E003D42CE /* KRConfettiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRConfettiView.m; sourceTree = "<group>"; };
+		BF5F41D81C649FF600944C33 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		BF5F41D91C649FF600944C33 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		BF5F41DA1C649FF600944C33 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		BF5F41DB1C649FF600944C33 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF42DB9E1C63B517003D42CE /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 		BF42DB5E1C63B4E3003D42CE = {
 			isa = PBXGroup;
 			children = (
+				BF42DB9D1C63B517003D42CE /* QuartzCore.framework */,
 				BF42DB691C63B4E3003D42CE /* KRConfetti */,
 				BF42DB831C63B4E3003D42CE /* KRConfettiTests */,
 				BF42DB8E1C63B4E3003D42CE /* KRConfettiUITests */,
@@ -110,6 +125,8 @@
 				BF42DB781C63B4E3003D42CE /* LaunchScreen.storyboard */,
 				BF42DB7B1C63B4E3003D42CE /* Info.plist */,
 				BF42DB6A1C63B4E3003D42CE /* Supporting Files */,
+				BF42DB9F1C63B52E003D42CE /* KRConfettiView.h */,
+				BF42DBA01C63B52E003D42CE /* KRConfettiView.m */,
 			);
 			path = KRConfetti;
 			sourceTree = "<group>";
@@ -117,6 +134,10 @@
 		BF42DB6A1C63B4E3003D42CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF5F41D81C649FF600944C33 /* confetti.png */,
+				BF5F41D91C649FF600944C33 /* diamond.png */,
+				BF5F41DA1C649FF600944C33 /* star.png */,
+				BF5F41DB1C649FF600944C33 /* triangle.png */,
 				BF42DB6B1C63B4E3003D42CE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,8 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF42DB7A1C63B4E3003D42CE /* LaunchScreen.storyboard in Resources */,
+				BF5F41DD1C649FF600944C33 /* diamond.png in Resources */,
 				BF42DB771C63B4E3003D42CE /* Assets.xcassets in Resources */,
 				BF42DB751C63B4E3003D42CE /* Main.storyboard in Resources */,
+				BF5F41DC1C649FF600944C33 /* confetti.png in Resources */,
+				BF5F41DF1C649FF600944C33 /* triangle.png in Resources */,
+				BF5F41DE1C649FF600944C33 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +298,7 @@
 				BF42DB721C63B4E3003D42CE /* ViewController.m in Sources */,
 				BF42DB6F1C63B4E3003D42CE /* AppDelegate.m in Sources */,
 				BF42DB6C1C63B4E3003D42CE /* main.m in Sources */,
+				BF42DBA11C63B52E003D42CE /* KRConfettiView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +524,7 @@
 				BF42DB961C63B4E3003D42CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF42DB971C63B4E3003D42CE /* Build configuration list for PBXNativeTarget "KRConfettiTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +533,7 @@
 				BF42DB991C63B4E3003D42CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF42DB9A1C63B4E3003D42CE /* Build configuration list for PBXNativeTarget "KRConfettiUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +542,7 @@
 				BF42DB9C1C63B4E3003D42CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
